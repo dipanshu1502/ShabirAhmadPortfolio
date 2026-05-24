@@ -449,6 +449,24 @@ nav ul li a:hover{
   font-size:24px;
   color:#555;
 }
+/* CONTACT LINKS */
+
+.contact-info a{
+
+    display:block;
+    text-decoration:none;
+    color:#555;
+    font-size:24px;
+    line-height:1.8;
+    transition:0.3s;
+
+}
+
+.contact-info a:hover{
+
+    color:#1B6CA8;
+
+}
 /* GOOGLE MAP CARD */
 
 .map-card{
@@ -599,6 +617,18 @@ body.dark .map-card{
     #114b7a,
     #1B6CA8
   );
+
+}
+
+body.dark .contact-info a{
+
+    color:#d6e4f2;
+
+}
+
+body.dark .contact-info a:hover{
+
+    color:#4DA8DA;
 
 }
 
